@@ -1,0 +1,1 @@
+ALTER TABLE user ADD COLUMN expo_push_token varchar(4096) AFTER identity_id;

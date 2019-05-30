@@ -1,0 +1,1 @@
+ALTER TABLE `reservation` CHANGE `state` `state` tinyint(3) DEFAULT 1 COMMENT 'enum(created, accepted, refused, canceled)'
